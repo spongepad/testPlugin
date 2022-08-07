@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.spongepad.testplugin.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.spongepad.testplugin.MyBundle
 
 class MyApplicationService {
 
