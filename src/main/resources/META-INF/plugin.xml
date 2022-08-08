@@ -15,4 +15,12 @@
         <listener class="com.github.spongepad.testplugin.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+
+    <actions>
+        <action id="com.test1.plugin.actions.PSITestAction"
+                class="com.test1.plugin.actions.PSITestAction"
+                text="psi test">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>
